@@ -1,0 +1,153 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	height:100%;
+}
+
+.parallax1 {
+	/* The image used */
+	background-image: url("img/banner1.jpg");
+
+	/* Adjustable height */
+	height: 50%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax2{
+	/* The image used */
+	background-image: url('img/hood.jpg');
+
+	/* Adjustable height */
+	height: 70%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax3 {
+	/* The image used */
+	background-image: url('img/sky.jpg');
+
+	/* Adjustable height */
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-1{
+	height: 250px;
+	background-color: white;
+	font-size: 20px;
+	color: #000000;
+}
+.bg-2{
+	height: 1000px;
+	background-color: #485f84;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+body{
+	background-color: white;
+
+}
+.txtcntr{
+  text-align: center;
+}
+
+footer {
+  display: block;
+  background-color: lightgrey;
+  height: 120px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  max-height: 100%;
+  text-align: center;
+}
+
+.form-group {
+  width: 300px;
+  position: center;
+  margin: auto;
+  background-color: #dee1e5;
+  padding: 25px;
+}
+
+button{
+  background-color: grey;
+  border-radius: 10px;
+  padding: 14px 20px;
+  color: black;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+input.button{	
+  background-color: grey;
+  border-radius: 10px;
+  padding: 14px 20px;
+  color: black;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+
+a.button  {
+    display: inline;
+    line-height: 100px;
+}
+
+input.button:hover {
+  opacity: 0.8;
+}
+
+.right{
+  float: right;
+}
+
+.adgrid{
+ 	padding-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 310px;
+  height: 310px;
+  background-color: #A9CCE3;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  color: #2980B9;
+}
+
+.responsive{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background-size: contain;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: auto;
+}
+
+.container{
+  align-content: center;
+}
